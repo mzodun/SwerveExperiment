@@ -24,6 +24,12 @@ public class RobotContainer {
   // The robot's subsystems and commands are defined here...
   private final DrivetrainSubsystem m_drivetrainSubsystem = new DrivetrainSubsystem();
 
+  //TODO: getwheels to rist in oriantation
+  // TODO: add slew rate
+  //TODO: account for gyroscope drift
+  //TODO: use sensor to stop where peices need to go
+  //TODO: gyrostabilization
+
   private final XboxController m_controller = new XboxController(0);
 
   /**
